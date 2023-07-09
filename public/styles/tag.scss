@@ -1,0 +1,36 @@
+html {
+	font-family: var(--main-font);
+	line-height: 1.6;
+	font-weight: 500;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	color: #292929;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+svg,
+img {
+	user-select: none;
+}
+
+button,
+input {
+	border: none;
+	outline: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
+a {
+	color: inherit;
+	font-size: inherit;
+	cursor: pointer;
+}

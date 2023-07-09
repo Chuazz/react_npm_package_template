@@ -32,10 +32,9 @@ export default defineConfig({
 				postcss({
 					plugins: [autoprefixer()],
 					sourceMap: true,
-					extract: true,
 					minimize: true,
 				}),
-				terser(), // minifies generated bundles
+				terser(),
 			],
 		},
 		sourcemap: true,
